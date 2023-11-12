@@ -1,0 +1,164 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings":{
+        "appearanceTools": true,
+        "color":{
+            "defaultPalette": false,
+            "palette": [
+                { "slug": "s-white", "color": "rgb(255,255,255)", "name": "Sajid White" },
+                { "slug": "s-gray-100", "color": "rgb(243 244 246)", "name": "Sajid Gray 100" },
+                { "slug": "s-gray-200", "color": "rgb(229 231 235)", "name": "Sajid Gray 200" },
+                { "slug": "s-gray-300", "color": "rgb(209 213 219)", "name": "Sajid Gray 300" },
+                { "slug": "s-gray-400", "color": "rgb(156 163 175)", "name": "Sajid Gray 400" },
+                { "slug": "s-gray-500", "color": "rgb(107 114 128)", "name": "Sajid Gray 500" },
+                { "slug": "s-gray-600", "color": "rgb(75 85 99)", "name": "Sajid Gray 600" },
+                { "slug": "s-gray-700", "color": "rgb(55 65 81)", "name": "Sajid Gray 700" },
+                { "slug": "s-gray-800", "color": "rgb(31 41 55)", "name": "Sajid Gray 800" },
+                { "slug": "s-gray-900", "color": "rgb(17 24 39)", "name": "Sajid Gray 900" },
+                { "slug": "s-primary", "color": "rgb(239 68 68)", "name": "Sajid Primary" },
+                { "slug": "s-accent", "color": "rgb(67 56 202)", "name": "Sajid Accent" },
+                { "slug": "s-success", "color": "rgb(52 211 153)", "name": "Sajid Success" },
+                { "slug": "s-info", "color": "rgb(96 165 250)", "name": "Sajid Info" },
+                { "slug": "s-warning", "color": "rgb(251 146 60)", "name": "Sajid Warning" },
+                { "slug": "s-danger", "color": "rgb(236 72 153)", "name": "Sajid Danger" }
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": true,
+            "duotone": [
+                {"slug": "s-pink-sunset", "colors": ["#11245e", "#dc4379" ], "name": "Sajid Pink Sunset"}
+            ],
+            "defaultGradients": false,
+            "gradients": [
+                {
+                    "slug": "s-summer-dog",
+                    "name": "Sajid Summer Dog",
+                    "gradient": "linear-gradient(#a8ff78, #78ffd6) "
+                }
+            ]
+        },
+        "blocks":{
+            "core/site-title":{
+                "color":{
+                    "defaultPalette": true,
+                    "palette": [
+                        { "slug": "s-primary", "color": "#ef4444", "name": "Sajid Primary"}
+                    ],
+                    "link": true,
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Pacifico sans-sarif",
+                    "slug": "s-pacifico",
+                    "name": "Sajid pacifico"
+                }
+            ],
+            "fontSizes": [
+                
+                {"slug": "small", "size": "0.75rem", "name": "Small"},
+                {"slug": "medium", "size": "1.25rem", "name": "Medium"},
+                {"slug": "large", "size": "2.25rem", "name": "Large"},
+                {"slug": "x-large", "size": "3rem", "name": "Extra large"},
+                {"slug": "gigantic", "size": "3.75rem", "name": "Gigantic"}
+                
+            ],
+            "lineHeight": true,
+            "dropCap": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "letterSpacing": true,
+            "textDecoration": true
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px","em","rem","vh","vw","%"
+            ],
+            "blockGap": true
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--s-gray-700)",
+            "background": "var(--wp--preset--color--s-white)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "ver(--wp-preset--color--s-primary)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+               "color":{
+                "gradient": "var(--wp-preset-gradient--s-summer-dog)"
+               } 
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--s-primary)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp-preset--font--family--s-pacifico)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font--family--s-rubik)",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "blockGap": "4rem"
+        }
+    }
+    
+}
